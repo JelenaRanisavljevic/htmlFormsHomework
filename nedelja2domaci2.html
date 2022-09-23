@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icons8-chart-100.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormHomework2</title>
+</head>
+<body>
+    <h1>Order Form</h1>
+    <form>
+    <label for="fname">Your name:</label>
+    <input type="text" value="" id="fname" name="fname" placeholder="Your name" required>
+    <br>
+    <br>
+    <label for="email">Your email:</label>
+    <input type="email" value="" id="email" name="email" placeholder="Your email" required>
+    <br>
+    <br>
+    <br>
+    <label>Choose your product</label>
+    <input type="radio" name="products" value="Product 1" id="product1" required>
+    <label for="product1">Product 1</label>
+    <input type="radio" name="products" value="Product 2" id="product2">
+    <label for="product2">Product 2</label>
+    <input type="radio" name="products" value="Product 3" id="product3">
+    <label for="product3">Product 3</label>
+    <br>
+    <br>
+    <br>
+    <label for="ddate">Delivery date:</label>
+    <input type="date" name="date" value="" id="ddate">
+    <br>
+    <br>
+    <label for="Quantity">Quantity</label>
+    <input type="number" value="3" min="1" max="100" id="Quantity" name="Quantity" required>
+    <br>
+    <br>
+    <br>
+    <label for="Adress">Street Adress</label>
+    <input type="text" name="Adress" value="" id="Adress" required>
+    <br>
+    <br>
+    <br>
+    <label for="city">City:</label>
+    <select id="city" name="city" required>
+    <option value="">Select City</option>
+    <option value="Adorjan">Adorjan</option>
+    <option value="Aleksandrovo">Aleksandrovo</option>
+    <option value="Alibunar">Alibunar</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <label for="region">Region:</label>
+    <select id="region" name="region" required>
+        <option value="">Select Region</option>
+        <option value="Vojvodina">Vojvodina</option>
+        <option value="CentralnaSrbija">Centralna Srbija</option>
+        <option value="Beograd">Beograd</option>
+        </select>
+    <br>
+    <br>
+    <input type="checkbox" id="Notifications" name="Notifications" checked>
+    <label for="Notifications">I want to recieve notifications by email</label>
+    <br>
+    <br>
+    <br>
+    <textarea id="customermessage" placeholder="Your comment here" name="Special requests"></textarea>
+    <br>
+    <br>
+    <br>
+    <input name="form" type="submit" value="Order"/>
+        
+
+
+    </form>
+</body>
+</html>
